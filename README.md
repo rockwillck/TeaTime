@@ -11,7 +11,7 @@ A simple, modern tea timer
 - Clean UI
 - Completely free
 ## Live Demo
-You can access a live demo [here](https://rockwill.dev/TeaTime).
+You can access a live demo [here](https://rockwill.dev/teatime).
 ## License
 This software is licensed under the Bok Choy General Software License. The full text of the license should be included below. If not, more information can be found at https://www.rockwill.dev/Bok-Choy-License/.
 ```
