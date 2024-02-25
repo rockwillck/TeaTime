@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Tea Time</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="A simple, modern tea timer." />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="icon" href="icon.png">
+</head>
+<body>
+	<div id="options">
+		<p id="notifP">Would you like notifications for your timers?</p>
+		<button id="notifY" onclick="answer('notif', true)">Yes</button>
+		<button id="notifN" onclick="answer('notif', false)">No</button>
+		<p id="soundP">Would you like sounds for your timers?</p>
+		<button id="soundY" onclick="answer('sound', true)">Yes</button>
+		<button id="soundN" onclick="answer('sound', false)">No</button>
+	</div>
+	<div id="teas">
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>

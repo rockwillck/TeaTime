@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+:root {
+	--theme:rgb(48,141,104);
+	--accent:rgb(237,219,115)
+}
+
+body {
+	font-family: "Barriecito", system-ui;
+	background-color: var(--theme);
+	color: var(--accent);
+}
+
+#teas {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+	scroll-snap-type: y mandatory;
+  	scroll-snap-type: mandatory;
+}
+
+.tea {
+	height: 100vh;
+	scroll-snap-align: start;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.timer {
+	color: white;
+	font-weight: bold;
+	font-size: 100px;
+	font-style:normal;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	font-style: italic;
+}
+h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 50px;
+	text-transform: lowercase;
+}
+
+.brew {
+	background-color: var(--accent);
+	border: solid;
+	border-color: var(--accent);
+	border-width: 2px;
+	font-family: inherit;
+	color: var(--theme);
+	font-size: 30px;
+	border-radius: 0px;
+	padding: 10px;
+	margin: 0px;
+	transition: 0.2s;
+	width: max(30vw, 120px);
+	text-transform: lowercase;
+}
+.brew:hover {
+	background-color: var(--theme);
+	color: var(--accent);
+	width: max(20vw, 120px);
+}
+.brew:active {
+	width: max(70vw, 120px);
+	background-color: var(--accent);
+	color: var(--theme);
+}
+
+#options {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+	z-index: 2;
+	background-color: var(--theme);
+	border-color: var(--accent);
+	border: solid;
+	border-width: 2px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+#options > button {
+	background-color: var(--accent);
+	border: solid;
+	border-color: var(--theme);
+	border-width: 2px;
+	font-family: inherit;
+	padding: 5px;
+	color: var(--theme);
+	font-size: 20px;
+	transition: 0.2s;
+}
+#options > button:hover {
+	background-color: var(--theme);
+	color: var(--accent);
+	border-color: var(--accent);
+}
+#options > button:active {
+	background-color: var(--accent);
+	color: var(--theme);
+	border-color: var(--accent);
+}
+#options > p {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
