@@ -10,8 +10,12 @@ A simple, modern tea timer
 - Pleasant alarm sound
 - Clean UI
 - Completely free
+## Support TeaTime
+TeaTime is a solo developed, open-source project. Any support is welcomed but is only that - support. TeaTime will always be free and available on GitHub.  
+  
+<a href="https://www.buymeacoffee.com/rockwill"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=rockwill&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
 ## Live Demo
-You can access a live demo [here](https://rockwill.dev/teatime).
+You can access a live demo [here](https://www.rockwill.dev/teatime).
 ## License
 This software is licensed under the Bok Choy General Software License. The full text of the license should be included below. If not, more information can be found at https://www.rockwill.dev/Bok-Choy-License/.
 ```
