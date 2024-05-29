@@ -13,7 +13,7 @@ A simple, modern tea timer
 ## Support TeaTime
 TeaTime is a solo developed, open-source project. Any support is welcomed but is only that - support. TeaTime will always be free and available on GitHub.  
   
-<a href="https://www.buymeacoffee.com/rockwill"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=rockwill&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+<a href="https://www.buymeacoffee.com/rockwill"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=rockwill&button_colour=40DCA5&font_colour=ffffff&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" /></a>
 ## Live Demo
 You can access a live demo [here](https://www.rockwill.dev/teatime).
 ## License
